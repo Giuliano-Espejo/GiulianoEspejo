@@ -1,0 +1,28 @@
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.AssemblyInfoInputs.cache
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.AssemblyInfo.cs
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano\source\repos\Vectores\bin\Debug\net7.0\Vectores.exe
+C:\Users\Giuliano\source\repos\Vectores\bin\Debug\net7.0\Vectores.deps.json
+C:\Users\Giuliano\source\repos\Vectores\bin\Debug\net7.0\Vectores.runtimeconfig.json
+C:\Users\Giuliano\source\repos\Vectores\bin\Debug\net7.0\Vectores.dll
+C:\Users\Giuliano\source\repos\Vectores\bin\Debug\net7.0\Vectores.pdb
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.dll
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\refint\Vectores.dll
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.pdb
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\Vectores.genruntimeconfig.cache
+C:\Users\Giuliano\source\repos\Vectores\obj\Debug\net7.0\ref\Vectores.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.AssemblyInfoInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.AssemblyInfo.cs
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\refint\Vectores.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\bin\Debug\net7.0\Vectores.exe
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\bin\Debug\net7.0\Vectores.deps.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\bin\Debug\net7.0\Vectores.runtimeconfig.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\bin\Debug\net7.0\Vectores.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\bin\Debug\net7.0\Vectores.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\Vectores.genruntimeconfig.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\Vectores\obj\Debug\net7.0\ref\Vectores.dll

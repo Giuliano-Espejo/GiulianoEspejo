@@ -1,0 +1,14 @@
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\bin\Debug\net7.0\Saludos.exe
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\bin\Debug\net7.0\Saludos.deps.json
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\bin\Debug\net7.0\Saludos.runtimeconfig.json
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\bin\Debug\net7.0\Saludos.dll
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\bin\Debug\net7.0\Saludos.pdb
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.AssemblyInfoInputs.cache
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.AssemblyInfo.cs
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.dll
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\refint\Saludos.dll
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.pdb
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\Saludos.genruntimeconfig.cache
+C:\Users\Giuliano Espejo\RiderProjects\Saludos\Saludos\obj\Debug\net7.0\ref\Saludos.dll

@@ -1,0 +1,14 @@
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.AssemblyInfoInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.AssemblyInfo.cs
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\bin\Debug\net7.0\MatrizEspiral.exe
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\bin\Debug\net7.0\MatrizEspiral.deps.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\bin\Debug\net7.0\MatrizEspiral.runtimeconfig.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\bin\Debug\net7.0\MatrizEspiral.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\bin\Debug\net7.0\MatrizEspiral.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\refint\MatrizEspiral.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\MatrizEspiral.genruntimeconfig.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\MatrizEspiral\obj\Debug\net7.0\ref\MatrizEspiral.dll

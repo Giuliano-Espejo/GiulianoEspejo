@@ -1,0 +1,14 @@
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\bin\Debug\net7.0\EjercicioN5.exe
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\bin\Debug\net7.0\EjercicioN5.deps.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\bin\Debug\net7.0\EjercicioN5.runtimeconfig.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\bin\Debug\net7.0\EjercicioN5.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\bin\Debug\net7.0\EjercicioN5.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.AssemblyInfoInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.AssemblyInfo.cs
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\refint\EjercicioN5.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\EjercicioN5.genruntimeconfig.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\EjercicioN5\obj\Debug\net7.0\ref\EjercicioN5.dll

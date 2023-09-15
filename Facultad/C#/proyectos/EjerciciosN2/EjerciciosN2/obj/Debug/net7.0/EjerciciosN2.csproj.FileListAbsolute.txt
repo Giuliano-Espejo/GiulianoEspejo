@@ -1,0 +1,14 @@
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\bin\Debug\net7.0\EjerciciosN2.exe
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\bin\Debug\net7.0\EjerciciosN2.deps.json
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\bin\Debug\net7.0\EjerciciosN2.runtimeconfig.json
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\bin\Debug\net7.0\EjerciciosN2.dll
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\bin\Debug\net7.0\EjerciciosN2.pdb
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.AssemblyInfoInputs.cache
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.AssemblyInfo.cs
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.dll
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\refint\EjerciciosN2.dll
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.pdb
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\EjerciciosN2.genruntimeconfig.cache
+C:\Users\Giuliano\source\repos\EjerciciosN2\EjerciciosN2\obj\Debug\net7.0\ref\EjerciciosN2.dll
