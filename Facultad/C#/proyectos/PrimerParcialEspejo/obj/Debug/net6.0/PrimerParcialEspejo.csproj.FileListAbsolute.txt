@@ -1,0 +1,14 @@
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.AssemblyInfoInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.AssemblyInfo.cs
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.csproj.CoreCompileInputs.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\bin\Debug\net6.0\PrimerParcialEspejo.exe
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\bin\Debug\net6.0\PrimerParcialEspejo.deps.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\bin\Debug\net6.0\PrimerParcialEspejo.runtimeconfig.json
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\bin\Debug\net6.0\PrimerParcialEspejo.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\bin\Debug\net6.0\PrimerParcialEspejo.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\refint\PrimerParcialEspejo.dll
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.pdb
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\PrimerParcialEspejo.genruntimeconfig.cache
+C:\Users\Giuliano Espejo\OneDrive - alumnos.frm.utn.edu.ar\Escritorio\facultad\Laboratorio 3\proyectos\PrimerParcialEspejo\obj\Debug\net6.0\ref\PrimerParcialEspejo.dll
