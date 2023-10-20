@@ -28,4 +28,4 @@ Tecnicatura Universitaria en Programación.
 Universidad Tecnológica Nacional, Facultad Regional de Mendoza.
 ```
 
-Link repositorio: https://github.com/raullencinas-frm-utn/Hexajedrez
+Link repositorio original: https://github.com/raullencinas-frm-utn/Hexajedrez
