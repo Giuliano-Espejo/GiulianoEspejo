@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CDN Bootstrap Icon -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <!-- BACK ICON -->
+            <div class="d-flex align-items-center gap-1">
+                <a href="/" class="d-flex align-items-center  justify-content-center border rounded-circle" style="top: 25px; left: 25px; height: 25px; width: 25px;">
+                    <i class="bi bi-chevron-left"></i>
+                </a>
+                <!--ICON-->
+                <a class="navbar-brand" href="/">Desarrollo en Argentina</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tareas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                            <a class="dropdown-item" href="/index.html#porHacer">Por hacer</a>
+                            <a class="dropdown-item" href="/index.html#enProduccions">En Producción</a>
+                            <a class="dropdown-item" href="/index.html#porTestear">Por Testear</a>
+                            <a class="dropdown-item" href="/index.html#completada">Completada</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/agregar-tarea.html">Agregar</a>
+                    </li>
+                </ul>
+
+                <div class="d-md-none">
+                    <ul class="navbar-nav me-auto-mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-flex gap-2">
+                    <a class="nav-item nav-link p-1" href="">
+                        <!--Tecket-->
+                        <i class="bi bi-basket" style="font-size: 1.2rem;"></i>
+                    </a>
+                    <a class="nav-item nav-link p-1" href="">
+                        <!--Usuario-->
+                        <i class="bi bi-person" style="font-size: 1.2rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Artículo producto -->
+    <article class="mt-5 position-relative" >
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt=""
+                        id="producto-imagen">
+                </div>
+                <div class=" col-12 col-md-6">
+                    <h1 id="producto-titulo" class="display-5 fw-bolder">TITULO</h1>
+                    <div class="f5-5 mb-5">
+                        <span id="producto-tiempo"></span>
+                        <p id="producto-descripcion" class="lead">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Voluptates, veniam voluptatum amet, id perspiciatis quidem optio pariatur asperiores minima
+                            velit iusto
+                            cumque modi officia sint quae temporibus unde! Assumenda, quaerat.</p>
+                        <p class="lead" id="producto-responsable"></p>
+                        <br>
+                        <div class="d-flex align-items-center gap-1">
+                            <div>
+                                <select id="estado" name="estado" class="form-select">
+                                    <option selected value="">Estado</option>
+                                    <option value="PORHACER">Por hacer</option>
+                                    <option value="ENPRODUCCION">En producción</option>
+                                    <option value="PORTESTEAR">Por testear</option>
+                                    <option value="COMPLETADA">Completada</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary d-flex gap-1"  id="update-button">
+                                <span class="d-none d-md-block">Cambiar Estado</span>
+                                <i class="bi bi-arrow-left-right"></i>
+                            </button>
+                            <button class="btn btn-outline-danger" type="button" id="delete-button">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                            <a class="btn btn-danger" href="/">
+                                Salir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOAST -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="successToast" role="alert">
+            <div class="toast-header">
+                <strong class="me-auto">Cambio de estado</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body bg-success-subtle">
+                Se modificó correctamente el estado
+            </div>
+        </div>
+    </div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="errorToast" role="alert">
+            <div class="toast-header">
+                <strong class="me-auto">Cambio de estado</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body bg-danger-subtle">
+                Por favor agrega un estado para poder modificarlo.
+            </div>
+        </div>
+    </div>
+
+
+    <!-- productos relacionados -->
+    <section class="py-5 bg-light">
+        <div class="container-fluid px-4 px-lg-5 mt-5">
+            <h2 class="fw-bolder mb-4">Productos Relacionados</h2>
+            <div id="productos-relacionados"
+                class="row row-cols-1 row-cols-md-2 row-cols-xl-4 justify-content-center g-4">
+                <!-- Aqui se renderizan los productos -->
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">Colmena Tec</a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 El Atareado, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-twitter-x"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- CDN Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- JAVASCRIPT -->
+
+    <script type="module" src="libs/pages/detalle.js"></script>
+
+</body>
+
+</html>

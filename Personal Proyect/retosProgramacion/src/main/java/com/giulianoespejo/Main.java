@@ -13,7 +13,85 @@ public class Main {
         //fizzbuzz(); //#0
         //lenguajeHacker(); //#1
         //partidoTenis();//#2
-        primoFibonacciPar();
+        //primoFibonacciPar(); //#4
+        //holaMundo(); //#5
+       // System.out.println(createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
+        //System.out.println(digital_root(15));
+        practicaParcial();
+    }
+
+    public static void practicaParcial() {
+        //buscar secuencias de letras iguales en una matriz
+        //sentido horizontal, verticar, diagonal, ect..
+        char[][] a = {{'a', 'b','c'}, {'a', 'b','c'}};
+        mostrarMatriz(a);
+    }
+
+    public static void busquedaHorizontan(char[][] a){
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[1].length; j++) {
+                System.out.print(a[i][j]);
+            }
+            System.out.println();
+        }
+        a.
+    }
+
+    public static void mostrarMatriz(char[][] a){
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[1].length; j++) {
+                System.out.print(a[i][j]);
+            }
+            System.out.println();
+        }
+    }
+    public static int digital_root(int n) {
+        //Digital root is the recursive sum of all the digits in a number.
+        //
+        //Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
+        //
+        //Examples
+        //    16  -->  1 + 6 = 7
+        //   942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+        //132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+        //493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
+        if (n<0){
+            throw new IllegalArgumentException("numero negativo");
+        }
+        if(n<10){
+            return n;
+        }else{
+            return n % 10;
+        }
+    }
+
+    public static String createPhoneNumber(int[] numbers) {
+        String numero = "";
+        if(numbers.length != 10){
+            throw new IllegalArgumentException("El tamaño del array no es correcto");
+        }
+        for (int i = 0; i < 10; i++){
+            if (i == 0){
+                numero += "("+numbers[i];
+            } else if (i == 2) {
+                numero += numbers[i] +") ";
+            } else if (i == 6) {
+                numero += "-" + numbers[i];
+            }else {
+                numero+= numbers[i];
+            }
+        }
+        return  numero;
+    }
+
+    public static void holaMundo(){
+        System.out.printf("Hola Mundo");
+        //<html><p> Hola Mundo </p> </html>
+        //Console.WriteLine("Hola Mundo");
+        //cout << "Hola Mundo";
+        //print("Hola Mundo");
+        //console.log("Hola Mundo");
+        //printf("Hola Mundo");
     }
 
     public static void primoFibonacciPar(){
@@ -24,28 +102,43 @@ public class Main {
          * - Con el número 2, nos dirá: "2 es primo, fibonacci y es par"
          * - Con el número 7, nos dirá: "7 es primo, no es fibonacci y es impar"
          */
+        int numero = 89;
+        System.out.println("Con el numero " + numero + primo(numero) + ((fibonacci(numero)) ? "es fibonacci" : "no es fibonacci") + par(numero));
     }
 
-    public static void fibonacci(int n){
-        if(n == 1){
-
+    // Método para verificar si un número está en la secuencia de Fibonacci
+    public static boolean fibonacci(int numero) {
+        if (numero == 0 || numero == 1) {
+            return true;
         }
+        int a = 0;
+        int b = 1;
+        int c = 1;
+        while (c < numero) {
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        return c == numero;
     }
 
     public static String par(int n){
-        return (n % 2 == 0) ? "es par" : "es impar";
+        return (n % 2 == 0) ? " y es par " : " y es impar ";
     }
 
     public static String primo(int n){
-        String primo = "es primo";
-
-        for (int i = 2; i < n; i++){
-            if(n % i == 0){
-                primo = "no es primo";
-                break;
+        String primo = ", es primo, ";
+        if(n > 1) {
+            for (int i = 2; i < n; i++) {
+                if (n % i == 0) {
+                    primo = ", no es primo, ";
+                    break;
+                }
             }
+            return primo;
+        }else{
+            return primo = "no es primo";
         }
-        return primo;
     }
 
     public static void partidoTenis(){

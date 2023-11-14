@@ -1,0 +1,139 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "titulo": "Desarrollo de la funcionalidad de autenticación",
+      "descripcion": "Implementar la funcionalidad de autenticación utilizando tecnologías modernas de seguridad",
+      "tiempo": 20,
+      "imagen": "https://images.yourstory.com/cs/1/b3cc3444ab5e11e88691f70342131e20/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg",
+      "responsable": "John Doe",
+      "estado": "COMPLETADA"
+    },
+    {
+      "id": 2,
+      "titulo": "Optimización de la base de datos",
+      "descripcion": "Realizar una optimización exhaustiva de la base de datos para mejorar el rendimiento del sistema",
+      "tiempo": 20,
+      "imagen": "https://images.yourstory.com/cs/1/b3cc3444ab5e11e88691f70342131e20/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg",
+      "responsable": "Jane Doe",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 3,
+      "titulo": "Implementación de la API de pago",
+      "descripcion": "Integrar una API de pago para permitir transacciones seguras y rápidas",
+      "tiempo": 20,
+      "imagen": "https://images.yourstory.com/cs/1/b3cc3444ab5e11e88691f70342131e20/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg",
+      "responsable": "Alex Smith",
+      "estado": "COMPLETADA"
+    },
+    {
+      "id": 4,
+      "titulo": "Diseño y desarrollo del front-end del panel de administración",
+      "descripcion": "Crear un diseño atractivo y funcional para el panel de administración del sistema",
+      "tiempo": 20,
+      "imagen": "https://images.yourstory.com/cs/1/b3cc3444ab5e11e88691f70342131e20/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg",
+      "responsable": "James Brown",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 5,
+      "titulo": "Desarrollo de la página de inicio del sitio web",
+      "descripcion": "Diseñar y desarrollar la página de inicio del sitio web utilizando las últimas tecnologías de front-end",
+      "tiempo": 10,
+      "imagen": "https://p1.hiclipart.com/preview/751/223/611/digital-marketing-icon-web-design-web-development-frontend-web-development-search-engine-optimization-user-interface-design-web-application-wordpress-png-clipart-thumbnail.jpg",
+      "responsable": "Mary Johnson",
+      "estado": "ENPRODUCCION"
+    },
+    {
+      "id": 6,
+      "titulo": "Implementación de la funcionalidad de búsqueda avanzada",
+      "descripcion": "Crear una búsqueda avanzada que permita a los usuarios encontrar información específica de manera rápida y eficiente",
+      "tiempo": 10,
+      "imagen": "https://p1.hiclipart.com/preview/751/223/611/digital-marketing-icon-web-design-web-development-frontend-web-development-search-engine-optimization-user-interface-design-web-application-wordpress-png-clipart-thumbnail.jpg",
+      "responsable": "Robert Smith",
+      "estado": "PORHACER"
+    },
+    {
+      "id": 7,
+      "titulo": "Desarrollo del sistema de notificaciones",
+      "descripcion": "Implementar un sistema de notificaciones en tiempo real para informar a los usuarios sobre eventos importantes",
+      "tiempo": 10,
+      "imagen": "https://p1.hiclipart.com/preview/751/223/611/digital-marketing-icon-web-design-web-development-frontend-web-development-search-engine-optimization-user-interface-design-web-application-wordpress-png-clipart-thumbnail.jpg",
+      "responsable": "Elizabeth Taylor",
+      "estado": "ENPRODUCCION"
+    },
+    {
+      "id": 8,
+      "titulo": "Creación de la interfaz de usuario de la aplicación móvil",
+      "descripcion": "Diseñar una interfaz de usuario intuitiva y atractiva para la aplicación móvil de la empresa",
+      "tiempo": 10,
+      "imagen": "https://p1.hiclipart.com/preview/751/223/611/digital-marketing-icon-web-design-web-development-frontend-web-development-search-engine-optimization-user-interface-design-web-application-wordpress-png-clipart-thumbnail.jpg",
+      "responsable": "Michael Johnson",
+      "estado": "ENPRODUCCION"
+    },
+    {
+      "id": 9,
+      "titulo": "Pruebas de rendimiento y estabilidad del sistema",
+      "descripcion": "Realizar pruebas exhaustivas para garantizar el rendimiento y la estabilidad del sistema en diversas situaciones",
+      "tiempo": 11,
+      "imagen": "https://img.medicalexpo.es/images_me/photo-m2/104219-17849575.jpg",
+      "responsable": "Christopher Lee",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 10,
+      "titulo": "Evaluación de la usabilidad de la interfaz de usuario",
+      "descripcion": "Realizar estudios de usabilidad para evaluar la facilidad de uso y la experiencia del usuario en la interfaz de usuario",
+      "tiempo": 11,
+      "imagen": "https://img.medicalexpo.es/images_me/photo-m2/104219-17849575.jpg",
+      "responsable": "Sarah Johnson",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 11,
+      "titulo": "Pruebas de seguridad y vulnerabilidad del sistema",
+      "descripcion": "Realizar pruebas exhaustivas de seguridad y vulnerabilidad para identificar y corregir posibles riesgos de seguridad",
+      "tiempo": 11,
+      "imagen": "https://img.medicalexpo.es/images_me/photo-m2/104219-17849575.jpg",
+      "responsable": "Daniel Smith",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 12,
+      "titulo": "Optimización de la velocidad de carga del sitio web",
+      "descripcion": "Mejorar la velocidad de carga del sitio web mediante la optimización de recursos y la implementación de prácticas recomendadas",
+      "tiempo": 11,
+      "imagen": "https://img.medicalexpo.es/images_me/photo-m2/104219-17849575.jpg",
+      "responsable": "Jessica Johnson",
+      "estado": "PORTESTEAR"
+    },
+    {
+      "id": 13,
+      "titulo": "Implementación de la funcionalidad de chat en vivo",
+      "descripcion": "Integrar un sistema de chat en vivo para permitir a los usuarios comunicarse directamente con el soporte técnico",
+      "tiempo": 11,
+      "imagen": "data:image/png;base64,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",
+      "responsable": "David Lee",
+      "estado": "PORHACER"
+    },
+    {
+      "id": 14,
+      "titulo": "Implementación de la funcionalidad de comentarios",
+      "descripcion": "Desarrollar un sistema de comentarios para permitir a los usuarios expresar sus opiniones y comentarios sobre el contenido",
+      "tiempo": 11,
+      "imagen": "data:image/png;base64,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",
+      "responsable": "Sophia Johnson",
+      "estado": "COMPLETADA"
+    },
+    {
+      "id": 15,
+      "titulo": "Implementación de la función de copia de seguridad automática",
+      "descripcion": "Desarrollar un sistema de copia de seguridad automática para proteger los datos del usuario y prevenir la pérdida de información",
+      "tiempo": 11,
+      "imagen": "data:image/png;base64,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",
+      "responsable": "Matthew Smith",
+      "estado": "COMPLETADA"
+    }
+  ]
+}
