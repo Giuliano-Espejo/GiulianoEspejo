@@ -1,5 +1,6 @@
 <h1 align="center">Hola 👋, soy Giuliano Espejo</h1>
 <h3 align="center">Un desarrollador backend de Argentina</h3>
+<h4>Soy un apasionado desarrollador backend con experiencia en el mundo de la programación, me estoy especializando en el ecosistema de Java y Spring Boot. Mi objetivo es crear soluciones sólidas y eficientes que impulsen el éxito de los proyectos en los que participo.</h4>
 
 <h3 align="left">Contactame en:</h3>
 <p align="left">
