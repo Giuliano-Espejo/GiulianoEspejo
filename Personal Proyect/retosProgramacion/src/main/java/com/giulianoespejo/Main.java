@@ -17,7 +17,23 @@ public class Main {
         //holaMundo(); //#5
        // System.out.println(createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
         //System.out.println(digital_root(15));
-        practicaParcial();
+        //practicaParcial();
+
+        System.out.println(invertirString("hola"));
+    }
+
+    public static String invertirString(String a){
+        //opcion1
+        /*
+        String invertido = "";
+        for (int i = a.length(); i >= 1; i--){
+            invertido += a.charAt(i-1);
+        }
+        return invertido;
+        */
+         //opcion2
+        String invertido = new StringBuilder(a).reverse().toString();
+        return invertido;
     }
 
     public static void practicaParcial() {
@@ -34,7 +50,6 @@ public class Main {
             }
             System.out.println();
         }
-        a.
     }
 
     public static void mostrarMatriz(char[][] a){
