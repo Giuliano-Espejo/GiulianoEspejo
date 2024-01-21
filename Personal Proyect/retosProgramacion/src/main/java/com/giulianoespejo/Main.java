@@ -3,7 +3,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 
-
 public class Main {
 
     static Scanner sc = new Scanner(System.in);
@@ -18,8 +17,40 @@ public class Main {
        // System.out.println(createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
         //System.out.println(digital_root(15));
         //practicaParcial();
+        //System.out.println(invertirString("hola"));
+        //System.out.println(esCapicua("aoa"));
+        System.out.println(esArmstrong(11));
+    }
 
-        System.out.println(invertirString("hola"));
+    public static Boolean esArmstrong(int a) {
+        /*
+         * Escribe una función que calcule si un número dado es un número de Armstrong
+         * (o también llamado narcisista).
+         * Si no conoces qué es un número de Armstrong, debes buscar información
+         * al respecto.
+         */
+        String numeroString = String.valueOf(a);
+        int cant = numeroString.length();
+        int sumatoria = 0;
+        for (int i = 0; i < cant; i++) {
+            int digito = Character.getNumericValue(numeroString.charAt(i));
+            sumatoria += Math.pow(digito, cant);
+        }
+        return (sumatoria == a) ? true : false;
+    }
+
+    public static Boolean esCapicua(String a){
+        //opcion1
+        /*
+        String invertido = "";
+        for (int i = a.length(); i >= 1; i--){
+            invertido += a.charAt(i-1);
+        }
+        return (invertido.equals(a)) ? true : false;
+         */
+        //opcion 2
+        String invertido = new StringBuilder(a).reverse().toString();
+        return (invertido.equals(a)) ? true : false;
     }
 
     public static String invertirString(String a){
@@ -60,6 +91,7 @@ public class Main {
             System.out.println();
         }
     }
+
     public static int digital_root(int n) {
         //Digital root is the recursive sum of all the digits in a number.
         //
