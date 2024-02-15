@@ -1,6 +1,6 @@
 package ge.ec.Controller;
 
-import ge.ec.Dto.ProductoSinUser;
+
 import ge.ec.Entity.Producto;
 import ge.ec.Service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ public class ProductoController {
     public ResponseEntity<?> findAll(){
         Map<String, Object> response = new HashMap<>();
         try{
-            List<ProductoSinUser> productos = productoService.findAll();
+            List<Producto> productos = productoService.findAll();
             response.put("productos: ", productos);
             return ResponseEntity.ok(response);
         }catch (Exception e){
@@ -37,7 +37,7 @@ public class ProductoController {
     public ResponseEntity<?> findById(@PathVariable Long id){
         Map<String, Object> response = new HashMap<>();
         try{
-            ProductoSinUser productos = productoService.findById(id);
+            Producto productos = productoService.findById(id);
             response.put("producto", productos);
             return ResponseEntity.ok(response);
         }catch (Exception e){
@@ -81,6 +81,19 @@ public class ProductoController {
             return ResponseEntity.ok(response);
         }catch (Exception e){
             response.put("Error ", e.getMessage());
+            return ResponseEntity.badRequest().body(response);
+        }
+    }
+
+    @GetMapping("/productos/{busqueda}")
+    public ResponseEntity<?> busqueda(@PathVariable String busqueda){
+        Map<String, Object> response = new HashMap<>();
+        try {
+            List<Producto> productos = productoService.buscar(busqueda);
+            response.put("productos", productos);
+            return ResponseEntity.ok(response);
+        }catch (Exception e){
+            response.put("Error -> ", e.getMessage());
             return ResponseEntity.badRequest().body(response);
         }
     }

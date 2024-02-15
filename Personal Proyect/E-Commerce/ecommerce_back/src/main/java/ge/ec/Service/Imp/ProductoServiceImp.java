@@ -1,7 +1,6 @@
 package ge.ec.Service.Imp;
 
-import ge.ec.Dto.ProductoConverter;
-import ge.ec.Dto.ProductoSinUser;
+
 import ge.ec.Entity.Producto;
 import ge.ec.Repository.ProductoRepository;
 import ge.ec.Service.ProductoService;
@@ -18,13 +17,13 @@ public class ProductoServiceImp implements ProductoService {
     private ProductoRepository productoRepository;
 
     @Override
-    public List<ProductoSinUser> findAll() {
-        return toDtoList(productoRepository.findByDeletedFalse());
+    public List<Producto> findAll() {
+        return productoRepository.findByDeletedFalse();
     }
 
     @Override
-    public ProductoSinUser findById(Long id) {
-        return ProductoConverter.toDto(productoRepository.findById(id).orElseThrow(()->new NullPointerException("No se encontró el ID del producto, id N°: "+ id)));
+    public Producto findById(Long id) {
+        return productoRepository.findById(id).orElseThrow(()->new NullPointerException("No se encontró el ID del producto, id N°: "+ id));
     }
 
     @Override
@@ -49,9 +48,9 @@ public class ProductoServiceImp implements ProductoService {
         productoRepository.deleteById(id);
     }
 
-    public List<ProductoSinUser> toDtoList(List<Producto> productos){
-        return productos.stream()
-                .map(ProductoConverter::toDto)
-                .collect(Collectors.toList());
+    @Override
+    public List<Producto> buscar(String busqueda) {
+        return productoRepository.findByTituloOrDescripcion(busqueda);
     }
+
 }

@@ -28,7 +28,7 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
+	//https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
 	implementation group: 'org.springframework.security', name: 'spring-security-core', version: '6.2.1'
 
 }
