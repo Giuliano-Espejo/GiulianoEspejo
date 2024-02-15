@@ -4,7 +4,6 @@ import Productos from "./componentes/Productos";
 import Producto from "./componentes/Producto";
 import Agregar from "./componentes/Agregar";
 
-
 function App() {
   return (
     <div className="App" >

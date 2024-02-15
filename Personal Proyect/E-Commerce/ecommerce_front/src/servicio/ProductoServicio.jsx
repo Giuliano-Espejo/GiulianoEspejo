@@ -2,12 +2,16 @@ import axios from "axios";
 
 const urlBase = "http://localhost:8080/ecommerce/";
 export async function getAll() {
-  console.log("productos service ", await axios.get(urlBase + "productos"));
   return await axios.get(urlBase + "productos");
 }
 
 export async function getById(id) {
   return axios.get(urlBase + "producto/" + id);
+}
+
+export async function search(busqueda){
+  console.log("URL -----> ",urlBase + "productos/" + busqueda);
+  return axios.get(urlBase + "productos/" + busqueda);
 }
 
 export async function create(producto) {
